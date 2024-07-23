@@ -35,7 +35,7 @@ while True:
     last_height = new_height
 
 print(f"Total unique links found: {len(links)}")
-
+print(links)
 course_data_list = []
 
 for link in links:
