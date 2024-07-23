@@ -21,7 +21,7 @@ links = set()
 last_height = driver.execute_script("return document.body.scrollHeight")
 
 while True:
-    elements = driver.find_elements(By.XPATH, "//a[@href]")
+    elements = driver.find_elements(By.XPATH, "//div[@role='cell']//a[@href]")
     for element in elements:
         links.add(element.get_attribute('href'))
 
