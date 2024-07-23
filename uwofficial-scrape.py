@@ -7,12 +7,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import time
 
+subject = str(input("Enter subject code (eg. CS, GBDA, AFM): "))
+url = str(input("Enter subject course-list catalogue URL: "))
+
+
 options = Options()
 options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-url = "https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses?group=Accounting%20and%20Financial%20Management%20(AFM)"
 driver.get(url)
 
 wait = WebDriverWait(driver, 50)
@@ -45,7 +48,7 @@ print(f"Total unique links found: {len(links)}")
 
 for link in links:
     try:
-        if "AFM" in link:
+        if subject in link:
             driver.get(link)
             time.sleep(3)  # 3 seconds for the page to fully load
 
@@ -78,8 +81,8 @@ for link in links:
                     course.prerequisites = ' '.join(content)
                 elif "Antirequisites" in h3_text:
                     course.antirequisites = ' '.join(content)
-                else:
-                    pass # we need to account for cross listed courses here
+                elif "Cross-Listed Courses" in h3_text:
+                    course.crosslisted = ' '.join(content)
 
             print(course) #the __str__ method in the class takes care of this
             print("\n\n")
