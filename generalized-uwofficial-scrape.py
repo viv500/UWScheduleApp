@@ -58,7 +58,7 @@ def scroll_and_collect_links(link):
 
         # Scroll to the bottom
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(3)  # Wait for new content to load
+        time.sleep(1)  # Wait for new content to load
 
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:
@@ -76,7 +76,7 @@ for (link, name) in all_course_page_links:
     for link in course_links:
         try:
             driver.get(link)
-            time.sleep(3)  # 3 seconds for the page to fully load
+            time.sleep(1)  # 3 seconds for the page to fully load
 
             # initialize course class
             course = Course()
