@@ -2,6 +2,17 @@
 class Course:
     def __init__(self, title=None, description=None, prerequisites=None, antirequisites=None, crosslisted=None):
         self.title = title
+
+        self.courseCode = ''
+        self.courseTitle = ''
+        if (self.title): 
+            index = self.title.find('-')
+            if index != -1: 
+                self.courseCode = self.title[:index].strip()
+                self.courseTitle = self.title[index+2:].strip()
+            else:
+                self.courseCode = self.title
+        
         self.description = description
         self.prerequisites = prerequisites
         self.antirequisites = antirequisites
