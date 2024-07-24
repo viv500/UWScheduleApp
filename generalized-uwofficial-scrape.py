@@ -32,7 +32,7 @@ def get_all_course_pages():
     atags = driver.find_elements(By.XPATH, xpath_a)
     links = []
     for a in atags:
-        pattern = r'\(([^)]+)\)'
+        pattern = r'\(([^()]*)\)(?!.*\([^(]*\))'
         match = re.search(pattern, a.get_attribute('href'))
 
         links.append((a.get_attribute('href'), match.group(1)))
@@ -119,6 +119,8 @@ for (link, name) in all_course_page_links:
             print(f"An error occurred while processing {link}: {e}")
     print(All_Courses_In_Subject)
     All_Courses_Final_Data[name] = All_Courses_In_Subject
+    print("---- ALL DATA SO FAR ----")
+    print(All_Courses_Final_Data)
 
 print(All_Courses_Final_Data)
 
