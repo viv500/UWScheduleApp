@@ -1,0 +1,49 @@
+These are the results from the prereq parser that chatgpt gave us: 
+
+Must have completed the following: 
+CHINA302R - Third-Year Chinese 2 (0.50)
+{'course_reqs': [['CHINA302R']], 'major_reqs': []}
+
+==========================================================================
+
+Students must be in level 2A or higher
+{'course_reqs': [['Students must be in level 2A or higher']], 'major_reqs': []}
+
+==========================================================================
+
+Earned at least 0.50 units from CLAS
+{'course_reqs': [['Earned at least 0.50 units from CLAS']], 'major_reqs': []}
+
+==========================================================================
+
+Must have completed at least 1 of the following: 
+CLAS231 - Studies in Ancient Greek Literature (0.50)
+CLAS232 - Studies in Ancient Roman Literature (0.50)
+{'course_reqs': [['CLAS231', 'CLAS232']], 'major_reqs': []}
+
+==========================================================================
+
+Not completed nor concurrently enrolled in: PHIL271 (Topic 11: Animals in our Lives)
+{'course_reqs': [['Not completed nor concurrently enrolled in: PHIL271 (Topic 11: Animals in our Lives)']], 'major_reqs': []}
+
+==========================================================================
+ECON100 - Principles of Economics
+{'course_reqs': [['ECON100']], 'major_reqs': []}
+
+==========================================================================
+
+Complete 1 of the following
+Students must be in level 2A or higher
+Enrolled in Black Studies Diploma, or Fundamentals of Anti-Racist Communication Diploma
+{'course_reqs': [], 
+'major_reqs': ['Black Studies Diploma', 'or Fundamentals of Anti-Racist Communication Diploma', ['Students must be in level 2A or higher']]}
+
+==========================================================================
+
+Complete all of the following
+Must have completed the following: 
+COMMST201 - Introduction to Gender and Sexuality in Communication (0.50)
+Students must be in level 3A or higher
+{'course_reqs': [['COMMST201', 'Students must be in level 3A or higher']], 'major_reqs': []}
+
+==========================================================================
