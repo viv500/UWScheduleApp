@@ -1,0 +1,95 @@
+"Complete all of the following\nMust have completed the following: \nECON391 - Equilibrium in Market Economies (0.50)\nMust have completed at least 1 of the following: \nECON323 - Econometric Analysis 2 (0.50)\nSTAT221 - Statistics (Non-Specialist Level) (0.50)\nSTAT231 - Statistics (0.50)\nSTAT241 - Statistics (Advanced Level) (0.50)\nComplete 1 of the following\nEnrolled in 4G-Economics, H-Economics, or H-Mathematical Economics (BA)\nEnrolled in an Honours program"{
+    "course_reqs": [
+        [
+            "ECON391"
+        ]
+    ],
+    "major_reqs": [
+        "4G-Economics",
+        "H-Economics",
+        "or H-Mathematical Economics (BA)",
+        "an Honours program",
+        [
+            "ECON323",
+            "STAT221",
+            "STAT231",
+            "STAT241"
+        ]
+    ]
+}
+============================================================================================
+
+
+"Must have completed the following: \nCHINA302R - Third-Year Chinese 2 (0.50)"
+{
+    "course_reqs": [],
+    "major_reqs": []
+}
+============================================================================================
+
+"Students must be in level 2A or higher"
+{
+    "course_reqs": [],
+    "major_reqs": []
+}
+============================================================================================
+
+
+"Earned at least 0.50 units from CLAS"
+{
+    "course_reqs": [],
+    "major_reqs": []
+}
+============================================================================================
+
+"Must have completed at least 1 of the following: \nCLAS231 - Studies in Ancient Greek Literature (0.50)\nCLAS232 - Studies in Ancient Roman Literature (0.50)"
+{
+    "course_reqs": [
+        [
+            "CLAS231",
+            "CLAS232"
+        ]
+    ],
+    "major_reqs": []
+}
+============================================================================================
+
+"Not completed nor concurrently enrolled in: PHIL271 (Topic 11: Animals in our Lives)"
+{
+    "course_reqs": [],
+    "major_reqs": []
+}
+============================================================================================
+
+"ECON100 - Principles of Economics"
+{
+    "course_reqs": [
+        [
+            "ECON100"
+        ]
+    ],
+    "major_reqs": []
+}
+============================================================================================
+
+"Complete 1 of the following\nStudents must be in level 2A or higher\nEnrolled in Black Studies Diploma, or Fundamentals of Anti-Racist Communication Diploma"
+{
+    "course_reqs": [],
+    "major_reqs": [
+        "Black Studies Diploma",
+        "or Fundamentals of Anti-Racist Communication Diploma"
+    ]
+}
+============================================================================================
+
+"Complete all of the following\nMust have completed the following: \nCOMMST201 - Introduction to Gender and Sexuality in Communication (0.50)\nStudents must be in level 3A or higher"
+{
+    "course_reqs": [
+        [
+            "COMMST201"
+        ]
+    ],
+    "major_reqs": []
+}
+============================================================================================
+
