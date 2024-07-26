@@ -2,7 +2,7 @@
 class Course:
     def __init__(self, title=None, description=None, prerequisites=None, antirequisites=None, crosslisted=None):
         self.title = title
-        
+
         self.courseCode = ''
         self.courseTitle=''
 

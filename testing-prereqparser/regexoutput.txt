@@ -1,4 +1,13 @@
-"Complete all of the following\nMust have completed the following: \nECON391 - Equilibrium in Market Economies (0.50)\nMust have completed at least 1 of the following: \nECON323 - Econometric Analysis 2 (0.50)\nSTAT221 - Statistics (Non-Specialist Level) (0.50)\nSTAT231 - Statistics (0.50)\nSTAT241 - Statistics (Advanced Level) (0.50)\nComplete 1 of the following\nEnrolled in 4G-Economics, H-Economics, or H-Mathematical Economics (BA)\nEnrolled in an Honours program"{
+"Complete all of the following
+    \nMust have completed the following: 
+        \nECON391 - Equilibrium in Market Economies (0.50)\n
+        Must have completed at least 1 of the following: 
+            \nECON323 - Econometric Analysis 2 (0.50)
+            \nSTAT221 - Statistics (Non-Specialist Level) (0.50)
+            \nSTAT231 - Statistics (0.50)\nSTAT241 - Statistics (Advanced Level) (0.50)
+            \nComplete 1 of the following
+            \nEnrolled in 4G-Economics, H-Economics, or H-Mathematical Economics (BA)\nEnrolled in an Honours program"
+{
     "course_reqs": [
         [
             "ECON391"
